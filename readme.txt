@@ -12,6 +12,9 @@ A minimal WordPress theme for academics
 
 == Changelog ==
 
+= 1.0.1 =
+* Adjust navigation menu
+
 = 1.0.0 =
 * Settle on basic styles
 

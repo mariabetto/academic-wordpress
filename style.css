@@ -1,0 +1,36 @@
+/*
+Theme Name: Academic
+Theme URI: https://github.com/mariabetto/academic-wordpress
+Author: Maria Betto
+Author URI: 
+Description: A minimal WordPress theme for academics
+Requires at least: 6.0
+Tested up to: 6.2.2
+Requires PHP: 5.7
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: academic-minimal
+Tags: full-site-editing, 
+*/
+
+/* abstract (more)/(less) links */
+.morelink {
+  text-decoration: none;
+}
+
+.morecontent,
+.with-hidden > .moreellipses {
+  display: inline;
+}
+
+.moreellipses,
+.with-hidden > .morecontent {
+  display: none;
+}
+
+/* lines under sections */
+h2 {
+  border-bottom: solid;
+  border-color: var(--wp--preset--color--foreground);
+}

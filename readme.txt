@@ -1,4 +1,4 @@
-=== Academic ===
+=== Article ===
 Contributors: Maria Betto
 Requires at least: 6.0
 Tested up to: 6.4
@@ -8,9 +8,14 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-A minimal WordPress theme for academics
+A minimal WordPress theme for articles
 
 == Changelog ==
+
+= 2.0.0 =
+* Rename from "Academic" to "Article"
+* Remove email features
+* Remove unused fonts
 
 = 1.0.1 =
 * Adjust navigation menu
@@ -23,8 +28,8 @@ A minimal WordPress theme for academics
 
 == Copyright ==
 
-Academic WordPress Theme, (C) 2023 Maria Betto
-Academic is distributed under the terms of the GNU GPL.
+Article WordPress Theme, (C) 2023 Maria Betto
+Article is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

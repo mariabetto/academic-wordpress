@@ -8,7 +8,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-A minimal WordPress theme for articles
+Article is a minimalist WordPress block editor theme designed to resemble the article layout in LaTeX without being a literal port. It is ideal for single page academic websites such as those that showcase a list of publications, a CV, or a portfolio of academic writing.
 
 == Changelog ==
 

@@ -12,6 +12,10 @@ Article is a minimalist WordPress block editor theme designed to resemble the ar
 
 == Changelog ==
 
+= 2.1.0 =
+* Switch font from Latin Modern to Computer Modern Unicode
+* Add research pattern for displaying a list of publications
+
 = 2.0.0 =
 * Rename from "Academic" to "Article"
 * Remove email features
@@ -59,4 +63,4 @@ with Reserved Font Family Name "Computer Modern Unicode fonts".
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
 http://scripts.sil.org/OFL
--- End of omputer Modern Unicode Font credits --
+-- End of Computer Modern Unicode Font credits --

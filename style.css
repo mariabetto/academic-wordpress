@@ -20,12 +20,12 @@ Tags: education, one-column, wide-blocks, custom-colors, custom-menu, full-site-
 }
 
 .morecontent,
-.with-hidden > .moreellipses {
+.with-hidden>.moreellipses {
   display: inline;
 }
 
 .moreellipses,
-.with-hidden > .morecontent {
+.with-hidden>.morecontent {
   display: none;
 }
 
@@ -33,4 +33,11 @@ Tags: education, one-column, wide-blocks, custom-colors, custom-menu, full-site-
 h2 {
   border-bottom: solid;
   border-color: var(--wp--preset--color--foreground);
+}
+
+/* increase font size on desktop */
+@media (min-width: 600px) {
+  :root {
+    font-size: 125%;
+  }
 }

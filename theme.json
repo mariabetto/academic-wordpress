@@ -35,6 +35,7 @@
 			]
 		},
 		"typography": {
+			"fluid": true,
 			"fontFamilies": [
 				{
 					"fontFace": [
@@ -74,11 +75,70 @@
 					"fontFamily": "'CMU Serif', Cambria, 'Times New Roman', Times, serif",
 					"slug": "cmu-serif"
 				}
+			],
+			"fontSizes": [
+				{
+					"fluid": {
+						"max": "1.25rem",
+						"min": "1rem"
+					},
+					"name": "Normal",
+					"size": "1rem",
+					"slug": "normal"
+				},
+				{
+					"fluid": {
+						"max": "1.5rem",
+						"min": "1.2rem"
+					},
+					"name": "Large",
+					"size": "1.2rem",
+					"slug": "large"
+				},
+				{
+					"fluid": {
+						"max": "1.75rem",
+						"min": "1.4rem"
+					},
+					"name": "Extra Large",
+					"size": "1.4rem",
+					"slug": "extra-large"
+				},
+				{
+					"fluid": {
+						"max": "2.125rem",
+						"min": "1.7rem"
+					},
+					"name": "Huge",
+					"size": "1.7rem",
+					"slug": "huge"
+				},
+				{
+					"fluid": {
+						"max": "2.5rem",
+						"min": "2rem"
+					},
+					"name": "Gigantic",
+					"size": "2rem",
+					"slug": "gigantic"
+				}
 			]
 		},
 		"useRootPaddingAwareAlignments": true
 	},
 	"styles": {
+		"blocks": {
+			"core/site-tagline": {
+				"typography": {
+					"fontSize": "var:preset|font-size|normal"
+				}
+			},
+			"core/site-title": {
+				"typography": {
+					"fontSize": "var:preset|font-size|huge"
+				}
+			}
+		},
 		"color": {
 			"background": "var:preset|color|background",
 			"text": "var:preset|color|foreground"
@@ -86,31 +146,31 @@
 		"elements": {
 			"h2": {
 				"typography": {
-					"fontSize": "1.7rem",
+					"fontSize": "var:preset|font-size|huge",
 					"lineHeight": "2"
 				}
 			},
 			"h3": {
 				"typography": {
-					"fontSize": "1.4rem",
+					"fontSize": "var:preset|font-size|extra-large",
 					"lineHeight": "1.6"
 				}
 			},
 			"h4": {
 				"typography": {
-					"fontSize": "1.2rem",
+					"fontSize": "var:preset|font-size|large",
 					"lineHeight": "1.6"
 				}
 			},
 			"h5": {
 				"typography": {
-					"fontSize": "1rem",
+					"fontSize": "var:preset|font-size|normal",
 					"lineHeight": "1.6"
 				}
 			},
 			"h6": {
 				"typography": {
-					"fontSize": "1rem",
+					"fontSize": "var:preset|font-size|normal",
 					"fontStyle": "italic",
 					"fontWeight": "400",
 					"lineHeight": "1.6"
@@ -137,7 +197,8 @@
 			}
 		},
 		"typography": {
-			"fontFamily": "var:preset|font-family|cmu-serif"
+			"fontFamily": "var:preset|font-family|cmu-serif",
+			"fontSize": "var:preset|font-size|normal"
 		}
 	},
 	"templateParts": [

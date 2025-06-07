@@ -34,10 +34,3 @@ h2 {
   border-bottom: solid;
   border-color: var(--wp--preset--color--foreground);
 }
-
-/* increase font size on desktop */
-@media (min-width: 600px) {
-  :root {
-    font-size: 125%;
-  }
-}

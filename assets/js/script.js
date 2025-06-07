@@ -8,7 +8,7 @@ window.addEventListener("DOMContentLoaded", () => {
   var lesstext = "(less)";
 
   // Only apply to paragraphs in the research section
-  const cardTextsAll = document.body.querySelectorAll("#research p:last-child");
+  const cardTextsAll = document.body.querySelectorAll(".article-more-section p:last-child");
   for (const cardText of cardTextsAll) {
     var content = cardText.innerHTML;
 

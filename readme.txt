@@ -41,3 +41,22 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
+This theme bundles the following third-party resources:
+
+Computer Modern Unicode Fonts (https://cm-unicode.sourceforge.io/)
+Copyright (C) Authors of original metafont fonts:
+Donald Ervin Knuth (cm, concrete fonts)
+1995, 1996, 1997 J"org Knappen, 1990, 1992 Norbert Schwarz (ec fonts)
+1992-2006 A.Khodulev, O.Lapko, A.Berdnikov, V.Volovich (lh fonts)
+1997-2005 Claudio Beccari (cb greek fonts)
+2002 FUKUI Rei (tipa fonts)
+2003-2005 Han The Thanh (Vietnamese fonts)
+1996-2005 Walter Schmidt (cmbright fonts)
+
+Copyright (C) 2003-2009, Andrey V. Panov (panov@canopus.iacp.dvo.ru),
+with Reserved Font Family Name "Computer Modern Unicode fonts".
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is copied below, and is also available with a FAQ at:
+http://scripts.sil.org/OFL
+-- End of omputer Modern Unicode Font credits --

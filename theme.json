@@ -2,6 +2,11 @@
 	"settings": {
 		"appearanceTools": true,
 		"color": {
+			"defaultDuotone": false,
+			"defaultGradients": false,
+			"defaultPalette": false,
+			"duotone": [],
+			"gradients": [],
 			"palette": [
 				{
 					"color": "#252525",
@@ -152,7 +157,19 @@
 			"h2": {
 				"typography": {
 					"fontSize": "var:preset|font-size|huge",
-					"lineHeight": "2"
+					"lineHeight": "1.25"
+				},
+				"border": {
+					"bottom": {
+						"color": "var:preset|color|foreground",
+						"style": "solid",
+						"width": "0.1875rem"
+					}
+				},
+				"spacing": {
+					"margin": {
+						"bottom": "0.75em"
+					}
 				}
 			},
 			"h3": {

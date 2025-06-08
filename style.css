@@ -28,9 +28,3 @@ Tags: education, one-column, wide-blocks, custom-colors, custom-menu, full-site-
 .with-hidden>.morecontent {
   display: none;
 }
-
-/* lines under sections */
-h2 {
-  border-bottom: solid;
-  border-color: var(--wp--preset--color--foreground);
-}

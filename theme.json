@@ -206,33 +206,19 @@
 				},
 				"spacing": {
 					"margin": {
-						"top": "0.725em !important",
-						"bottom": "0.85em !important"
+						"top": "2.2em !important",
+						"bottom": "1.2em !important"
 					}
 				}
 			},
 			"h3": {
 				"typography": {
-					"fontSize": "var:preset|font-size|extra-large",
-					"lineHeight": "1.25"
-				},
-				"spacing": {
-					"margin": {
-						"top": "1.625em",
-						"bottom": "0.625em !important"
-					}
+					"fontSize": "var:preset|font-size|extra-large"
 				}
 			},
 			"h4": {
 				"typography": {
-					"fontSize": "var:preset|font-size|large",
-					"lineHeight": "1.25"
-				},
-				"spacing": {
-					"margin": {
-						"top": "1.625em",
-						"bottom": "0.625em !important"
-					}
+					"fontSize": "var:preset|font-size|large"
 				}
 			},
 			"h5": {

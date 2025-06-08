@@ -218,10 +218,8 @@
 				},
 				"spacing": {
 					"margin": {
-						"top": "1.625em"
-					},
-					"padding": {
-						"bottom": "0.175em"
+						"top": "1.625em",
+						"bottom": "0.625em !important"
 					}
 				}
 			},
@@ -232,10 +230,8 @@
 				},
 				"spacing": {
 					"margin": {
-						"top": "1.625em"
-					},
-					"padding": {
-						"bottom": "0.1em"
+						"top": "1.625em",
+						"bottom": "0.625em !important"
 					}
 				}
 			},

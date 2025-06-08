@@ -35,7 +35,11 @@
 			]
 		},
 		"typography": {
-			"fluid": true,
+			"fluid": {
+				"minFontSize": "16px",
+				"maxViewportWidth": "1000px",
+				"minViewportWidth": "600px"
+			},
 			"fontFamilies": [
 				{
 					"fontFace": [
@@ -76,6 +80,7 @@
 					"slug": "cmu-serif"
 				}
 			],
+			"defaultFontSizes": false,
 			"fontSizes": [
 				{
 					"fluid": {

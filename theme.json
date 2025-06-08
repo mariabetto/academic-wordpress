@@ -127,6 +127,15 @@
 			"fontSizes": [
 				{
 					"fluid": {
+						"max": "1rem",
+						"min": "0.8rem"
+					},
+					"name": "Small",
+					"size": "0.8rem",
+					"slug": "small"
+				},
+				{
+					"fluid": {
 						"max": "1.25rem",
 						"min": "1rem"
 					},
@@ -184,6 +193,15 @@
 			"core/site-title": {
 				"typography": {
 					"fontSize": "var:preset|font-size|huge"
+				}
+			},
+			"core/post-title": {
+				"typography": {
+					"fontSize": "var:preset|font-size|gigantic",
+					"textAlign": "center"
+				},
+				"border": {
+					"style": "none"
 				}
 			}
 		},
@@ -265,10 +283,10 @@
 		"spacing": {
 			"blockGap": "1em",
 			"padding": {
-				"bottom": "var:preset|spacing|70",
-				"left": "var:preset|spacing|70",
-				"right": "var:preset|spacing|70",
-				"top": "var:preset|spacing|70"
+				"bottom": "var:preset|spacing|50",
+				"left": "var:preset|spacing|50",
+				"right": "var:preset|spacing|50",
+				"top": "var:preset|spacing|50"
 			}
 		},
 		"typography": {

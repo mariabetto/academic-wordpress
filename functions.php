@@ -22,7 +22,7 @@ if (!function_exists('article_support')) {
         add_editor_style('style.css');
 
         // Make theme available for translation.
-        load_theme_textdomain('article-gutenberg');
+        load_theme_textdomain('article-academic');
     }
 
 }

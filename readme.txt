@@ -1,7 +1,7 @@
 === Article ===
 Contributors: Maria Betto
 Requires at least: 6.0
-Tested up to: 6.4
+Tested up to: 6.8.1
 Requires PHP: 5.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -11,6 +11,10 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Article is a minimalist WordPress block editor theme designed to resemble the article layout in LaTeX without being a literal port. It is ideal for single page academic websites such as those that showcase a list of publications, a CV, or a portfolio of academic writing.
 
 == Changelog ==
+
+= 2.2.0 =
+* Use fluid font sizes
+* Styling adjustment for h2 headers
 
 = 2.1.0 =
 * Switch font from Latin Modern to Computer Modern Unicode
